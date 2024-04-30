@@ -1,0 +1,9 @@
+../RTL/pe.v
+../RTL/input_fifo.v
+../RTL/mem.v
+../RTL/potential_wrapper.v
+../RTL/arb.v
+../RTL/cluster.v
+../RTL/potential_mem.v
+../TB/tb.v
+../RTL/scheduler.v
