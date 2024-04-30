@@ -1,0 +1,64 @@
+[2023-11-06 17:18:03.165111] |==============================================================================|
+[2023-11-06 17:18:03.165510] |=========                      OpenRAM v1.2.41                       =========|
+[2023-11-06 17:18:03.165621] |=========                                                            =========|
+[2023-11-06 17:18:03.165718] |=========               VLSI Design and Automation Lab               =========|
+[2023-11-06 17:18:03.165814] |=========        Computer Science and Engineering Department         =========|
+[2023-11-06 17:18:03.165916] |=========            University of California Santa Cruz             =========|
+[2023-11-06 17:18:03.166011] |=========                                                            =========|
+[2023-11-06 17:18:03.166104] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2023-11-06 17:18:03.166202] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2023-11-06 17:18:03.166293] |=========                See LICENSE for license info                =========|
+[2023-11-06 17:18:03.166390] |==============================================================================|
+[2023-11-06 17:18:03.166490] ** Start: 11/06/2023 17:18:03
+[2023-11-06 17:18:03.166584] Technology: sky130
+[2023-11-06 17:18:03.166671] Total size: 32 bits
+[2023-11-06 17:18:03.166761] Word size: 2
+Words: 16
+Banks: 1
+[2023-11-06 17:18:03.166874] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2023-11-06 17:18:03.166969] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2023-11-06 17:18:03.167072] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2023-11-06 17:18:03.167166] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2023-11-06 17:18:03.167266] Words per row: None
+[2023-11-06 17:18:03.167371] Output files are: 
+[2023-11-06 17:18:03.167465] /home/ee500x/e1142975/output/sram_2_16_sky130.lvs
+[2023-11-06 17:18:03.167563] /home/ee500x/e1142975/output/sram_2_16_sky130.sp
+[2023-11-06 17:18:03.167662] /home/ee500x/e1142975/output/sram_2_16_sky130.v
+[2023-11-06 17:18:03.167754] /home/ee500x/e1142975/output/sram_2_16_sky130.lib
+[2023-11-06 17:18:03.167845] /home/ee500x/e1142975/output/sram_2_16_sky130.py
+[2023-11-06 17:18:03.167934] /home/ee500x/e1142975/output/sram_2_16_sky130.html
+[2023-11-06 17:18:03.168025] /home/ee500x/e1142975/output/sram_2_16_sky130.log
+[2023-11-06 17:18:03.168117] /home/ee500x/e1142975/output/sram_2_16_sky130.lef
+[2023-11-06 17:18:03.168214] /home/ee500x/e1142975/output/sram_2_16_sky130.gds
+[2023-11-06 17:18:03.977998] ** Submodules: 0.8 seconds
+[2023-11-06 17:18:03.984477] ** Placement: 0.0 seconds
+[2023-11-06 17:18:41.143552] ** Routing: 37.2 seconds
+[2023-11-06 17:18:41.165044] ** Verification: 0.0 seconds
+[2023-11-06 17:18:41.165169] ** SRAM creation: 38.0 seconds
+[2023-11-06 17:18:41.165264] SP: Writing to /home/ee500x/e1142975/output/sram_2_16_sky130.sp
+[2023-11-06 17:18:41.195151] ** Spice writing: 0.0 seconds
+[2023-11-06 17:18:41.195274] DELAY: Writing stimulus...
+[2023-11-06 17:18:41.292236] ** DELAY: 0.1 seconds
+[2023-11-06 17:18:41.300672] GDS: Writing to /home/ee500x/e1142975/output/sram_2_16_sky130.gds
+[2023-11-06 17:18:41.373582] ** GDS: 0.1 seconds
+[2023-11-06 17:18:41.373698] LEF: Writing to /home/ee500x/e1142975/output/sram_2_16_sky130.lef
+[2023-11-06 17:18:41.379482] ** LEF: 0.0 seconds
+[2023-11-06 17:18:41.379591] LVS: Writing to /home/ee500x/e1142975/output/sram_2_16_sky130.lvs.sp
+[2023-11-06 17:18:41.388214] ** LVS writing: 0.0 seconds
+[2023-11-06 17:18:41.388336] LIB: Characterizing... 
+[2023-11-06 17:18:41.574637] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2023-11-06 17:18:41.689749] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2023-11-06 17:18:41.874087] WARNING: file lib.py: line 778: Failed to retrieve git id
+
+[2023-11-06 17:18:41.875166] ** Characterization: 0.5 seconds
+[2023-11-06 17:18:41.875543] Config: Writing to /home/ee500x/e1142975/output/sram_2_16_sky130.py
+[2023-11-06 17:18:41.875696] ** Config: 0.0 seconds
+[2023-11-06 17:18:41.877099] Datasheet: Writing to /home/ee500x/e1142975/output/sram_2_16_sky130.html
+[2023-11-06 17:18:41.878589] ** Datasheet: 0.0 seconds
+[2023-11-06 17:18:41.878699] Verilog: Writing to /home/ee500x/e1142975/output/sram_2_16_sky130.v
+[2023-11-06 17:18:41.878958] ** Verilog: 0.0 seconds
+[2023-11-06 17:18:41.879439] ** End: 38.7 seconds
